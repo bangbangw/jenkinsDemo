@@ -16,8 +16,8 @@ public class HelloController {
      */
     @RequestMapping("/index")
     public String index(HttpServletRequest request) {
-        System.out.println("---------index-1----------");
-        request.setAttribute("say", "hello word!1");
+        System.out.println("---------index-12----------");
+        request.setAttribute("say", "hello word!12");
         return "index.jsp";
     }
 }
